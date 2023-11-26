@@ -4,6 +4,8 @@
 
 body {
     font-family: 'IBM Plex Mono', monospace;
+    --primary-color: rgb(26, 224, 142);
+    --secondary-color: rgb(85, 111, 68);
 }
 
 .show {

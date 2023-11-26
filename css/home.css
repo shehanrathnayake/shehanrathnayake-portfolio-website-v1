@@ -4,6 +4,14 @@ footer {
     width: 100%;
 }
 
+h1 {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
 #img-container {
     width: 300px;
     height: 300px;
@@ -43,7 +51,7 @@ a:hover {
 }
 
 #description > div {
-    border: 2px solid green;
+    border: 2px solid var(--primary-color);
     margin-bottom: 5px;
 }
 
@@ -53,14 +61,20 @@ a:hover {
     align-items: center;
 }
 
-#description p {
-    background-color: aqua;
-    
-}
-
 .bi-arrow-right-circle,
 .bi-arrow-down-circle {
     font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.languages {
+    font-weight: 700;
+}
+
+.section-body ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 @media all and (prefers-color-scheme: dark) {
