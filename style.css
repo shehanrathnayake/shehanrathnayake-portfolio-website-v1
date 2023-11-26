@@ -3,5 +3,13 @@
 }
 
 body {
-    font-family: 'VT323', monospace;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }

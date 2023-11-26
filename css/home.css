@@ -1,0 +1,75 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#img-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("../src/img/shehanrathnayake-profile-picture.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#profile > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+#profile img {
+    width: 20px;
+    height: auto;
+}
+
+#profile {
+    font-size: 1rem;
+}
+
+.bi-linkedin {
+    color: #0A66C2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#description > div {
+    border: 2px solid green;
+    margin-bottom: 5px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#description p {
+    background-color: aqua;
+    
+}
+
+.bi-arrow-right-circle,
+.bi-arrow-down-circle {
+    font-size: 1.5rem;
+}
+
+@media all and (prefers-color-scheme: dark) {
+    .img-dark {
+        display: none;
+    }
+
+    .img-light {
+        display: block;
+        /* border: 1px solid; */
+    }
+}
