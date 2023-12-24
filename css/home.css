@@ -123,8 +123,6 @@ h2 > span {
     background-size: cover;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    /* border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px; */
 }
 
 .main__featured-project p
@@ -137,7 +135,6 @@ h2 > span {
 }
 
 .main__featured-project-content a {
-    /* text-decoration: none; */
     color: var(--secondary-color);
     font-weight: 500;
 }
@@ -145,6 +142,11 @@ h2 > span {
 .main__featured-project-content-tags span {
     font-size: 0.7rem;
     border-radius: 5px;
+}
+
+
+.main__skill{
+    color: var(--secondary-color);
 }
 
 #java-container {
@@ -280,8 +282,6 @@ h2 > span {
 }
 
 footer {
-    /* position: fixed;
-    bottom: 0; */
     width: 100%;
 }
 
@@ -340,3 +340,108 @@ footer {
         background-color: #202124;
     }
 } */
+
+@media all and (min-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 60px;
+    }
+
+    .aside__img-container {
+        width: 50%;
+        aspect-ratio: 0.9;
+    }
+
+    .main__featured-project {
+        width: 350px;
+    }
+
+    .main__specialization-container {
+        margin-top: 100px;
+    }
+
+
+    .main__specialization-container h3 {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+
+    aside {
+        position: fixed;
+        left: 10px;
+    }
+
+    .aside {
+        height: 100%;
+    }
+
+
+    .aside__img-container {
+        width: 80%;
+        aspect-ratio: 0.9;
+    }
+
+    .aside__body {
+        gap: 30px;
+    }
+
+    .main__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .main__container__column {
+        width: 75%;
+    }
+
+    .main__heading {
+        margin-top: 100px;
+        height: calc(100vh - 100px);
+    }
+
+    #designation {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+
+    .main__heading p {
+        width: 90%;
+    }
+
+    .main__feature-container {
+        margin-top: 100px;
+    }
+
+    .main__feature-count {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media all and (min-width: 1400px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+
+    .aside {
+        width: 400px;
+    }
+
+    .main__feature-count {
+        font-size: 4rem;
+    }
+}
