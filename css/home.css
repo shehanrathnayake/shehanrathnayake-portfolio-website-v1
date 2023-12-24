@@ -78,6 +78,126 @@ h2 > span {
     color: var(--primary-color);
 }
 
+.main__skill--image-container {
+    width: 80px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#java-container {
+    background-image: url("/src/img/tech-stacks/javaimage.jpg");
+}
+
+#javascript-container{
+    background-image: url("/src/img/tech-stacks/JavaScript-logo.png");
+}
+
+#typecript-container {
+    background-image: url("/src/img/tech-stacks/Typescript.png");
+}
+
+#node-container {
+    background-image: url("/src/img/tech-stacks/nodejs.png");
+}
+
+#express-container {
+    background-image: url("/src/img/tech-stacks/express-js.png");
+}
+
+#angular-container {
+    background-image: url("/src/img/tech-stacks/Angular_full_color_logo.png");
+}
+
+#react-container {
+    background-image: url("/src/img/tech-stacks/react-logo.png");
+}
+
+#jquery-container {
+    background-image: url("/src/img/tech-stacks/jquery-logo.png");
+}
+
+#html-container {
+    background-image: url("/src/img/tech-stacks/html.png");
+}
+
+#css-container {
+    background-image: url("/src/img/tech-stacks/CSS3.png");
+}
+
+#scss-container {
+    background-image: url("/src/img/tech-stacks/sass_logo.png");
+}
+
+#bootstrap-container {
+    background-image: url("/src/img/tech-stacks/bootstrap-logo.png");
+}
+
+#tailwind-container {
+    background-image: url("/src/img/tech-stacks/tailwindcss.jpg");
+}
+
+#jakarta-container {
+    background-image: url("/src/img/tech-stacks/jakartaee.png");
+}
+
+#spring-container {
+    background-image: url("/src/img/tech-stacks/spring-logo.png");
+}
+
+#springboot-container {
+    background-image: url("/src/img/tech-stacks/springboot.png");
+}
+
+#hibernate-container {
+    background-image: url("/src/img/tech-stacks/hibernate-logo.png");
+}
+
+#junit-container {
+    background-image: url("/src/img/tech-stacks/junit.jpg");
+}
+
+#mysql-container {
+    background-image: url("/src/img/tech-stacks/mysql.png");
+}
+
+#postgresql-container {
+    background-image: url("/src/img/tech-stacks/postgresql.png");
+}
+
+#mongo-container {
+    background-image: url("/src/img/tech-stacks/mongodb.jpg");
+}
+
+#firestore-container {
+    background-image: url("/src/img/tech-stacks/firestore.jpg");
+}
+
+#maven-container {
+    background-image: url("/src/img/tech-stacks/maven.png");
+}
+
+#npm-container {
+    background-image: url("/src/img/tech-stacks/npm.png");
+}
+
+#git-container {
+    background-image: url("/src/img/tech-stacks/git.png");
+}
+
+#parcel-container {
+    background-image: url("/src/img/tech-stacks/parceljs.jpg");
+}
+
+#nodemon-container {
+    background-image: url("/src/img/tech-stacks/nodemon.png");
+}
+
+#postman-container {
+    background-image: url("/src/img/tech-stacks/postman.png");
+}
 
 footer {
     /* position: fixed;
