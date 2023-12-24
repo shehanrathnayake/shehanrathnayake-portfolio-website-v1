@@ -9,11 +9,16 @@ a {
 .aside {
     border: 1px solid var(--border-color);
     border-radius: 30px;
+    height: calc(100vh - 100px);
+}
+
+.aside__body {
+    height: calc(100% - 120px);
 }
 
 .aside__img-container {
-    width: 250px;
-    height: 275px;
+    width: 80%;
+    aspect-ratio: 0.9;
     background-image: url("/src/img/shehanrathnayake-profile-picture.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -35,6 +40,10 @@ a {
 .aside__btn-social-icons:hover {
     border-color: var(--primary-color);
     color: var(--primary-color);
+}
+
+#logo-name {
+    font-size: 2.5rem;
 }
 
 .btn--primary {
@@ -61,12 +70,20 @@ a {
     color: black;
 }
 
+#designation {
+    font-size: 1.5rem;
+}
+
 .btn > img {
     width: 22px;
 }
 
 .main__heading span {
     color: var(--primary-color);
+}
+
+.main__heading p {
+    color: var(--secondary-color);
 }
 
 .main__feature-count {
@@ -78,13 +95,18 @@ h2 > span {
     color: var(--primary-color);
 }
 
+.main__specialization-container h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .main__skill--image-container {
-    width: 80px;
-    height: 90px;
+    width: 50px;
+    height: 55px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .main__featured-project {

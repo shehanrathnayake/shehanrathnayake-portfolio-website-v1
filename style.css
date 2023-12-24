@@ -23,6 +23,15 @@ h1 {
     font-weight: 400;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+
 .show {
     display: block;
 }
