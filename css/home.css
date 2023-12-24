@@ -1,83 +1,58 @@
+aside {
+    margin-top: 20px;
+}
+.aside {
+    border: 1px solid var(--border-color);
+    border-radius: 30px;
+}
+
+.aside__img-container {
+    width: 250px;
+    height: 275px;
+    background-image: url("/src/img/shehanrathnayake-profile-picture.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.aside__btn-social-icons {
+    border: 2px solid var(--border-color);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--border-color);
+}
+
+.aside__btn-social-icons:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn--primary {
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    
+}
+
+.btn--primary:hover {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+
+
+
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-h1 {
-    color: var(--primary-color);
-}
-
-h2 {
-    color: var(--secondary-color);
-}
-
-#img-container {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-image: url("../src/img/shehanrathnayake-profile-picture.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 5px solid var(--primary-color);
-}
-
-#profile > div {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 5px;
-}
-
-#profile img {
-    width: 20px;
-    height: auto;
-}
-
-#profile {
-    font-size: 1rem;
-}
-
-.bi-linkedin {
-    color: #0A66C2;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-#description > div {
-    border: 2px solid var(--primary-color);
-    margin-bottom: 5px;
-}
-
-.section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-}
-
-.bi-arrow-right-circle,
-.bi-arrow-down-circle {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-}
-
-.languages {
-    font-weight: 700;
-}
-
-.section-body ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 
 .animated-caption-container {
     position: relative;
@@ -119,7 +94,7 @@ a:hover {
     }
 }
 
-@media all and (prefers-color-scheme: dark) {
+/* @media all and (prefers-color-scheme: dark) {
     .img-dark {
         display: none;
     }
@@ -127,9 +102,9 @@ a:hover {
     .img-light {
         display: block;
         /* border: 1px solid; */
-    }
+        /*   }
 
-    * {
+     {
         background-color: #202124;
     }
-}
+} */

@@ -4,9 +4,16 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    --primary-color: rgb(26, 224, 142);
+    /* --primary-color: rgb(26, 224, 142); */
+    --primary-color: #FC10BB;
+    /* --primary-color: #E93C9B; */
     --secondary-color: rgb(85, 111, 68);
     --third-color: rgb(10, 46, 54);
+    --background-color: #1F1F1F;
+    --border-color: #565656;
+
+    background-color: var(--background-color);
+    color: white;
 }
 
 .show {
