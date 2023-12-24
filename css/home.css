@@ -150,15 +150,15 @@ h2 > span {
 }
 
 #java-container {
-    background-image: url("/src/img/tech_stacks/javaimage.jpg");
+    background-image: url("src/img/tech_stacks/javaimage.jpg");
 }
 
 #javascript-container{
-    background-image: url("/src/img/tech-stacks/JavaScript-logo.png");
+    background-image: url("./src/img/tech_stacks/JavaScript-logo.png");
 }
 
 #typecript-container {
-    background-image: url("src/img/tech_stacks/Typescript.png");
+    background-image: url("./src/img/tech_stacks/Typescript.png");
 }
 
 #node-container {
