@@ -3,9 +3,10 @@
 }
 
 body {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inter', sans-serif;
     --primary-color: rgb(26, 224, 142);
     --secondary-color: rgb(85, 111, 68);
+    --third-color: rgb(10, 46, 54);
 }
 
 .show {
