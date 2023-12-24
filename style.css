@@ -4,13 +4,15 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    /* --primary-color: rgb(26, 224, 142); */
-    --primary-color: #FC10BB;
+    --primary-color: #1ae08e;
+    /* --primary-color: #e0d31a; */
+    /* --primary-color: #FC10BB; */
     /* --primary-color: #E93C9B; */
-    --secondary-color: rgb(85, 111, 68);
-    --third-color: rgb(10, 46, 54);
+    --secondary-color: #939393;
+    /* --primary-color: rgb(75, 126, 90); */
     --background-color: #1F1F1F;
-    --border-color: #565656;
+    /* --border-color: #565656; */
+    --border-color: #939393;
 
     background-color: var(--background-color);
     color: white;

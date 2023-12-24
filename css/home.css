@@ -62,7 +62,7 @@ a {
 }
 
 .btn > img {
-    width: 25px;
+    width: 22px;
 }
 
 .main__heading span {
@@ -85,6 +85,44 @@ h2 > span {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+}
+
+.main__featured-project {
+    border: 2px solid var(--border-color);
+    width: 85%;
+    border-radius: 20px;
+
+}
+
+.main__featured-projects-img-container {
+    height: 225px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    /* border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+}
+
+.main__featured-project p
+ {
+    color: var(--secondary-color);
+}
+
+.main__featured-project h5 {
+    color: white;
+}
+
+.main__featured-project-content a {
+    /* text-decoration: none; */
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.main__featured-project-content-tags span {
+    font-size: 0.7rem;
+    border-radius: 5px;
 }
 
 #java-container {
@@ -197,6 +235,26 @@ h2 > span {
 
 #postman-container {
     background-image: url("/src/img/tech-stacks/postman.png");
+}
+
+#tasktide-project {
+    background-image: url("/src/img/projects/tasktide-demo.png");
+}
+
+#clone-project {
+    background-image: url("/src/img/projects/clone-project-image.png");
+}
+
+#webdesign-project {
+    background-image: url("/src/img/projects/web-design-ui-for-architectural-firm.jpg");
+}
+
+#pos-project {
+    background-image: url("/src/img/projects/pos-project-image.png");
+}
+
+#googleclone-project {
+    background-image: url("/src/img/projects/google-ui-lightmode.png");
 }
 
 footer {
