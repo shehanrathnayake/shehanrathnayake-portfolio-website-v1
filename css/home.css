@@ -1,6 +1,11 @@
 aside {
     margin-top: 20px;
 }
+
+a {
+    color: var(--primary-color);
+}
+
 .aside {
     border: 1px solid var(--border-color);
     border-radius: 30px;
@@ -44,12 +49,39 @@ aside {
     color: var(--primary-color);
 }
 
+.btn--secondory {
+    border: 1px solid var(--border-color);
+    color: var(--border-color);
+    border-radius: 20px;
 
+}
+
+.btn--secondory:hover {
+    background-color: var(--primary-color);
+    color: black;
+}
+
+.btn > img {
+    width: 25px;
+}
+
+.main__heading span {
+    color: var(--primary-color);
+}
+
+.main__feature-count {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+h2 > span {
+    color: var(--primary-color);
+}
 
 
 footer {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
 }
 
@@ -67,7 +99,7 @@ footer {
     animation-timing-function: cubic-bezier(0, 0.25, 0.5, 0.75, 1);
     height: 40px;
     overflow: hidden;
-    background-color: white;
+    background-color: var(--background-color);
     width: 100%;
     position: absolute;
     right: 0;
