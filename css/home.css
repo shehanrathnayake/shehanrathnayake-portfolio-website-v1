@@ -158,7 +158,7 @@ h2 > span {
 }
 
 #typecript-container {
-    background-image: url("/src/img/tech-stacks/Typescript.png");
+    background-image: url("src/img/tech_stacks/Typescript.png");
 }
 
 #node-container {
