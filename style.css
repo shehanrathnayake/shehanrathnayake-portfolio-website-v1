@@ -5,13 +5,8 @@
 body {
     font-family: 'Inter', sans-serif;
     --primary-color: #1ae08e;
-    /* --primary-color: #e0d31a; */
-    /* --primary-color: #FC10BB; */
-    /* --primary-color: #E93C9B; */
     --secondary-color: #939393;
-    /* --primary-color: rgb(75, 126, 90); */
     --background-color: #1F1F1F;
-    /* --border-color: #565656; */
     --border-color: #939393;
 
     background-color: var(--background-color);

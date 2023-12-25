@@ -174,91 +174,91 @@ h2 > span {
 }
 
 #react-container {
-    background-image: url("../src/img/teckstack/react-logo.png");
+    background-image: url("../src/img/techstack/react-logo.png");
 }
 
 #jquery-container {
-    background-image: url("../src/img/teckstack/jquery-logo.png");
+    background-image: url("../src/img/techstack/jquery-logo.png");
 }
 
 #html-container {
-    background-image: url("../src/img/teckstack/html.png");
+    background-image: url("../src/img/techstack/html.png");
 }
 
 #css-container {
-    background-image: url("../src/img/teckstack/CSS3.png");
+    background-image: url("../src/img/techstack/CSS3.png");
 }
 
 #scss-container {
-    background-image: url("../src/img/teckstack/sass_logo.png");
+    background-image: url("../src/img/techstack/sass_logo.png");
 }
 
 #bootstrap-container {
-    background-image: url("../src/img/teckstack/bootstrap-logo.png");
+    background-image: url("../src/img/techstack/bootstrap-logo.png");
 }
 
 #tailwind-container {
-    background-image: url("../src/img/teckstack/tailwindcss.jpg");
+    background-image: url("../src/img/techstack/tailwindcss.jpg");
 }
 
 #jakarta-container {
-    background-image: url("../src/img/teckstack/jakartaee.png");
+    background-image: url("../src/img/techstack/jakartaee.png");
 }
 
 #spring-container {
-    background-image: url("../src/img/teckstack/spring-logo.png");
+    background-image: url("../src/img/techstack/spring-logo.png");
 }
 
 #springboot-container {
-    background-image: url("../src/img/teckstack/springboot.png");
+    background-image: url("../src/img/techstack/springboot.png");
 }
 
 #hibernate-container {
-    background-image: url("../src/img/teckstack/hibernate-logo.png");
+    background-image: url("../src/img/techstack/hibernate-logo.png");
 }
 
 #junit-container {
-    background-image: url("../src/img/teckstack/junit.jpg");
+    background-image: url("../src/img/techstack/junit.jpg");
 }
 
 #mysql-container {
-    background-image: url("../src/img/teckstack/mysql.png");
+    background-image: url("../src/img/techstack/mysql.png");
 }
 
 #postgresql-container {
-    background-image: url("../src/img/teckstack/postgresql.png");
+    background-image: url("../src/img/techstack/postgresql.png");
 }
 
 #mongo-container {
-    background-image: url("../src/img/teckstack/mongodb.jpg");
+    background-image: url("../src/img/techstack/mongodb.jpg");
 }
 
 #firestore-container {
-    background-image: url("../src/img/teckstack/firestore.jpg");
+    background-image: url("../src/img/techstack/firestore.jpg");
 }
 
 #maven-container {
-    background-image: url("../src/img/teckstack/maven.png");
+    background-image: url("../src/img/techstack/maven.png");
 }
 
 #npm-container {
-    background-image: url("../src/img/teckstack/npm.png");
+    background-image: url("../src/img/techstack/npm.png");
 }
 
 #git-container {
-    background-image: url("../src/img/teckstack/git.png");
+    background-image: url("../src/img/techstack/git.png");
 }
 
 #parcel-container {
-    background-image: url("../src/img/teckstack/parceljs.jpg");
+    background-image: url("../src/img/techstack/parceljs.jpg");
 }
 
 #nodemon-container {
-    background-image: url("../src/img/teckstack/nodemon.png");
+    background-image: url("../src/img/techstack/nodemon.png");
 }
 
 #postman-container {
-    background-image: url("../src/img/teckstack/postman.png");
+    background-image: url("../src/img/techstack/postman.png");
 }
 
 #tasktide-project {
@@ -284,62 +284,6 @@ h2 > span {
 footer {
     width: 100%;
 }
-
-
-.animated-caption-container {
-    position: relative;
-}
-
-
-
-.animated-caption {
-    animation-name: anim1; 
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0, 0.25, 0.5, 0.75, 1);
-    height: 40px;
-    overflow: hidden;
-    background-color: var(--background-color);
-    width: 100%;
-    position: absolute;
-    right: 0;
-}
-
-@keyframes anim1 {
-    0% {
-        width: 100%;
-    }
-    5% {
-        width: 100%;
-    }
-    40% {
-        width: 0%;
-    }
-    60% {
-        width: 0%;
-    }
-    95% {
-        width: 100%;
-    }
-    100% {
-        width: 100%;
-    }
-}
-
-/* @media all and (prefers-color-scheme: dark) {
-    .img-dark {
-        display: none;
-    }
-
-    .img-light {
-        display: block;
-        /* border: 1px solid; */
-        /*   }
-
-     {
-        background-color: #202124;
-    }
-} */
 
 @media all and (min-width: 768px) {
     h2 {
