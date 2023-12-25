@@ -150,7 +150,7 @@ h2 > span {
 }
 
 #java-container {
-    background-image: url("main/src/img/tech_stacks/javaimage.jpg");
+    background-image: url("../src/img/tech_stacks/javaimage.jpg");
 }
 
 #javascript-container{
