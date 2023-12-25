@@ -1,8 +1,34 @@
 # My Personal Portfolio
 
 ### Version
-0.1.0
+1.0.0
 
 ### License
 Copyright &copy; 2023 Shehan Rathnayake. All Rights Reserved.<br>
 This project is licensed under [MIT License](License.txt)
+
+## Sample Images
+
+### Desktop View
+
+<img src="demo/desktop_view1.png" width="600px" height="auto"><br>
+
+<img src="demo/desktop_view2.png" width="600px" height="auto"><br>
+
+<img src="demo/desktop_view2.png" width="600px" height="auto"><br>
+
+### Mobile View
+
+<img src="demo/mobile_view1.jpeg" width="300px" height="auto">
+
+<img src="demo/mobile_view2.jpeg" width="300px" height="auto">
+
+<img src="demo/mobile_view3.jpeg" width="300px" height="auto">
+
+<img src="demo/mobile_view4.jpeg" width="300px" height="auto">
+
+### Support
+
+***If you like what I do, maybe consider buying me a coffee*** 🥺 👇
+
+<p><a href="https://www.buymeacoffee.com/shehanrathnayake"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="37" width="157" alt="shehanrathnayake" /></a></p><br><br>
