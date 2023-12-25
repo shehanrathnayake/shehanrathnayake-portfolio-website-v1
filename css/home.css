@@ -162,15 +162,15 @@ h2 > span {
 }
 
 #node-container {
-    background-image: url("/img/techstack/nodejs.png");
+    background-image: url(/src/img/techstack/nodejs.png);
 }
 
 #express-container {
-    background-image: url("/src/img/tech-stacks/express-js.png");
+    background-image: url(/src/img/techstack/express-js.png);
 }
 
 #angular-container {
-    background-image: url("/src/img/tech-stacks/Angular_full_color_logo.png");
+    background-image: url(/src/img/techstack/Angular_full_color_logo.png);
 }
 
 #react-container {
