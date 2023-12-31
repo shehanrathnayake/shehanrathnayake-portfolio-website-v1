@@ -1,7 +1,7 @@
 # My Personal Portfolio
 
 ### Version
-1.1.0
+1.1.1
 
 ### License
 Copyright &copy; 2024 Shehan Rathnayake. All Rights Reserved.<br>

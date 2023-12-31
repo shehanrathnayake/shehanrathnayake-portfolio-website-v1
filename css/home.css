@@ -74,8 +74,20 @@ a {
     font-size: 1.5rem;
 }
 
-.btn > img {
+.btn--icon-container > img {
     width: 22px;
+}
+
+.btn--secondory #leetcode-dark {
+    display: none;
+}
+
+.btn--secondory:hover #leetcode-light {
+    display: none;
+}
+
+.btn--secondory:hover #leetcode-dark {
+    display: block;
 }
 
 .main__heading span {
@@ -287,7 +299,7 @@ h2 > span {
 }
 
 #spring-story {
-    background-image: url("../src/img/articles/total-process.png");
+    background-image: url("../src/img/articles/spring-web-process.png");
 }
 
 #bem-naming {
