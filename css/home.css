@@ -141,6 +141,7 @@ h2 > span {
 .main__featured-project-content a {
     color: var(--secondary-color);
     font-weight: 500;
+    line-height: 1.6;
 }
 
 .main__featured-project-content-tags span {
@@ -284,6 +285,19 @@ h2 > span {
 #googleclone-project {
     background-image: url("../src/img/projects/google-ui-lightmode.png");
 }
+
+#spring-story {
+    background-image: url("../src/img/articles/total-process.png");
+}
+
+#bem-naming {
+    background-image: url("../src/img/articles/bem-naming-feature-image.png");
+}
+
+#mcts-impl {
+    background-image: url("../src/img/articles/article-feature-image-mcts.png");
+}
+
 
 footer {
     width: 100%;

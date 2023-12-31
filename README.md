@@ -1,10 +1,10 @@
 # My Personal Portfolio
 
 ### Version
-1.0.0
+1.1.0
 
 ### License
-Copyright &copy; 2023 Shehan Rathnayake. All Rights Reserved.<br>
+Copyright &copy; 2024 Shehan Rathnayake. All Rights Reserved.<br>
 This project is licensed under [MIT License](License.txt)
 
 ## Sample Images
@@ -15,7 +15,9 @@ This project is licensed under [MIT License](License.txt)
 
 <img src="demo/desktop_view2.png" width="600px" height="auto"><br>
 
-<img src="demo/desktop_view2.png" width="600px" height="auto"><br>
+<img src="demo/desktop_view3.png" width="600px" height="auto"><br>
+
+<img src="demo/desktop_view4.png" width="600px" height="auto"><br>
 
 ### Mobile View
 
@@ -26,6 +28,8 @@ This project is licensed under [MIT License](License.txt)
 <img src="demo/mobile_view3.jpeg" width="300px" height="auto">
 
 <img src="demo/mobile_view4.jpeg" width="300px" height="auto">
+
+<img src="demo/mobile_view5.jpeg" width="300px" height="auto">
 
 ### Support
 
