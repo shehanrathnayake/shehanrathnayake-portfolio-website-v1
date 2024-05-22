@@ -416,6 +416,7 @@ footer {
 
     .aside {
         width: 400px;
+        max-height: calc(100vh - 20px);
     }
 
     .aside__body {
