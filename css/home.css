@@ -411,12 +411,13 @@ footer {
     aside {
         /* margin-top: 50px; */
         top: 50%;
-        transform: translateY(-60%);
+        transform: translateY(-50%);
     }
 
     .aside {
         width: 400px;
-        height: auto;
+        aspect-ratio: 1;
+        /* height: 100vh; */
         padding-bottom: 10px;
     }
 
