@@ -14,6 +14,7 @@ a {
 
 .aside__body {
     height: calc(100% - 120px);
+    padding-bottom: 10px;
 }
 
 .aside__img-container {
@@ -354,7 +355,7 @@ footer {
     }
 
     .aside {
-        height: calc(100dvh - 20px);
+        height: 100%;
         margin: 0;
     }
 
@@ -365,7 +366,7 @@ footer {
     }
 
     .aside__body {
-        gap: 30px;
+        gap: 15px;
     }
 
     .main__container {
@@ -409,16 +410,11 @@ footer {
     }
 
     aside {
-        /* margin-top: 50px; */
-        top: 50%;
-        transform: translateY(-50%);
+        top: 10%;
     }
 
     .aside {
-        width: 400px;
-        aspect-ratio: 1;
-        /* height: 100vh; */
-        padding-bottom: 10px;
+        width: 450px;
     }
 
     .main__heading {
