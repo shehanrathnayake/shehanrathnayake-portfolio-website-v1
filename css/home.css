@@ -410,11 +410,15 @@ footer {
     }
 
     aside {
-        top: 10%;
+        top: 5%;
     }
 
     .aside {
-        width: 450px;
+        width: 400px;
+    }
+
+    .aside__body {
+        gap: 25px;
     }
 
     .main__heading {
